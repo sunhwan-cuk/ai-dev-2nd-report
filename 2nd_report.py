@@ -58,7 +58,7 @@ filepath = 'ChatbotData.csv'
 # 간단한 챗봇 인스턴스를 생성합니다.
 chatbot = SimpleChatBot(filepath)
 
-# '종료'라는 단어가 입력될 때까지 챗봇과의 대화를 반복합종니다.
+# '종료'라는 단어가 입력될 때까지 챗봇과의 대화를 반복합니다.
 while True:
     input_sentence = input('You: ')
     if input_sentence.lower() == '종료':
