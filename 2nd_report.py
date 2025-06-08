@@ -49,7 +49,7 @@ class SimpleChatBot:
         distances = [self.calc_distance(input_sentence, q) for q in self.questions] 
         # 가장 유사한 질문 인텍스 찾기(레벤슈타인 거리가 최소인 인덱스 찾기)
         best_match_index = distances.index(min(distances))
-        # 가장 유ㅏ한 질문에 해당하는 답변 반환
+        # 가장 유사한 질문에 해당하는 답변 반환
         return self.answers[best_match_index]    
 
 # CSV 파일 경로를 지정하세요.
